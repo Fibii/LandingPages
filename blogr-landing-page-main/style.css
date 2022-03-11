@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: ubuntu, serif;
+    font-weight: 700;
+    line-height: 1.125rem;
+    color: var(--white);
+}
+
+.container {
+    margin-inline: 10.3125rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.75rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.navigation-menus {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-menus a {
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.navigation-menus li {
+    margin-right: 2rem;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+}
+
+.register li {
+    margin-right: 2rem;
+}
+
+.sign-up-link a {
+    text-decoration: none;
+    color: var(--light-red);
+    padding: 0.9375rem 2.5rem;
+    border-radius: 1.75rem;
+    background: var(--white);
+}
+
+.drop-down-menu li {
+    display: none;
+}
+
+.nav-item-overlay {
+    opacity: 0.75;
+}
+
+.hero {
+    height: 37.5rem;
+    background: url("images/bg-pattern-intro-desktop.svg"),
+    linear-gradient(175deg, var(--very-light-red-bg) 0%, var(--light-red-bg));
+    background-size: 200%, 190%;
+    background-position: left 19% center;
+}
+
+@media only screen and (max-width: 75rem) {
+   .container {
+        margin-inline: 3rem;
+   }
+}
+
+@media only screen and (max-width: 56.25rem) {
+    .container {
+        margin-inline: 2rem;
+    }
+}
+
+:root {
+    --light-red: hsl(356, 100%, 66%);
+    --very-light-red: hsl(355, 100%, 74%);
+    --very-dark-blue: hsl(208, 49%, 24%);
+    --white: hsl(0, 0%, 100%);
+    --grayish-blue: hsl(240, 2%, 79%);
+    --very-dark-grayish-blue: hsl(207, 13%, 34%);
+    --very-dark-black-blueL: hsl(240, 10%, 16%);
+    --very-light-red-bg: hsl(13, 100%, 72%);
+    --light-red-bg: hsl(353, 100%, 62%);
+}
