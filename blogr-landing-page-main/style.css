@@ -186,6 +186,68 @@ nav ul li {
     margin-top: 1rem;
 }
 
+/* infrastructure section */
+.infrastructure-section {
+    position: relative;
+    margin-top: 17.0625rem;
+}
+
+.infrastructure-container {
+    background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+    border-radius: 0 6.25rem;
+    height: 39.0625rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.infrastructure-phones {
+    position: absolute;
+    top: -20%;
+    z-index: 1;
+    width: 100%;
+}
+
+.infrastructure-phones img {
+    display: block;
+    width: 20.5rem;
+    margin-inline: auto;
+}
+
+.infrastructure-bg-circle {
+    position: absolute;
+    top: -38%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.infrastructure-bg-circle img {
+    width: 37.75rem;
+    opacity: 0.5;
+}
+
+.infrastructure-content {
+    position: relative;
+    z-index: 3;
+    margin-top: 13.8125rem;
+    text-align: center;
+}
+
+.infrastructure-content p, .infrastructure-content h3 {
+    color: var(--white);
+}
+
+.infrastructure-content h3 {
+    font-size: 2.5rem;
+    line-height: 3.8125rem;
+    letter-spacing: -0.075rem;
+    font-weight: 600;
+}
+
+.infrastructure-content p {
+    margin-top: 0.625rem;
+}
+
 @media only screen and (max-width: 75rem) {
     .container {
         margin-inline: 3rem;
