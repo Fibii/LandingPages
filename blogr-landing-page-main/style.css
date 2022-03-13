@@ -7,6 +7,26 @@
     margin-inline: 10.3125rem;
 }
 
+section {
+    font-family: 'Overpass', serif;
+}
+
+h3, h4 {
+    color: var(--very-dark-blue);
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 2.6875rem;
+}
+
+h4 {
+    line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* desktop navbar */
 nav {
     font-family: ubuntu, serif;
     font-weight: 700;
@@ -16,20 +36,12 @@ nav {
     position: relative;
 }
 
-a {
-    text-decoration: none;
-}
-
 nav a {
     color: var(--white);
 }
 
 nav ul li {
     list-style: none;
-}
-
-section {
-    font-family: 'Overpass', serif;
 }
 
 .nav-links {
@@ -84,6 +96,8 @@ section {
     display: none;
 }
 
+/* from here on, everything is mobile first*/
+/* hero section */
 .hero {
     height: 37.5rem;
     background: url("images/bg-pattern-intro-desktop.svg"),
@@ -144,6 +158,32 @@ section {
 
 .hero-links a {
     border: 0.0625rem solid var(--white);
+}
+
+/* designed for the future section*/
+.design-section {
+    margin-top: 6.25rem;
+    text-align: center;
+}
+
+.design-images img:last-child {
+    display: none;
+}
+
+.design-images img {
+    width: 20.375rem;
+    margin-top: 2.375rem;
+}
+
+.design-content {
+    margin-top: 2.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.design-content p {
+    margin-top: 1rem;
 }
 
 @media only screen and (max-width: 75rem) {
@@ -253,6 +293,14 @@ section {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s linear 100ms, opacity 100ms;
+}
+
+.content-paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.03125rem;
+    color: var(--very-dark-grayish-blue);
 }
 
 :root {
