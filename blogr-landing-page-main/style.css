@@ -16,13 +16,20 @@ nav {
     position: relative;
 }
 
-nav a {
+a {
     text-decoration: none;
+}
+
+nav a {
     color: var(--white);
 }
 
 nav ul li {
     list-style: none;
+}
+
+section {
+    font-family: 'Overpass', serif;
 }
 
 .nav-links {
@@ -83,6 +90,60 @@ nav ul li {
     linear-gradient(175deg, var(--very-light-red-bg) 0%, var(--light-red-bg));
     background-size: 200%, 190%;
     background-position: left 19% center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 0 100px;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero-content h1 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.4375rem;
+}
+
+.hero-content p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.hero-links {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.hero-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    width: 137px;
+    height: 3rem;
+    border-radius: 1.75rem;
+
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.125rem;
+}
+
+.hero-links a:first-child {
+    background-color: var(--white);
+    color: var(--light-red);
+    margin-right: 1rem;
+}
+
+.hero-links a {
+    border: 0.0625rem solid var(--white);
 }
 
 @media only screen and (max-width: 75rem) {
@@ -93,7 +154,7 @@ nav ul li {
 
 @media only screen and (max-width: 56.25rem) {
     .container {
-        margin-inline: 2rem;
+        margin-inline: 1.5rem;
         align-items: center;
     }
 
