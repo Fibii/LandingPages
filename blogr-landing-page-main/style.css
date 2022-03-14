@@ -248,6 +248,69 @@ nav ul li {
     margin-top: 0.625rem;
 }
 
+.features-section {
+    margin-top: 4.9375rem;
+    text-align: center;
+}
+
+/* features section */
+.features-images img:first-child {
+    display: none;
+}
+
+.features-images img {
+    width: 20.5rem;
+}
+
+.features-content {
+    margin-top: 2.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.features-content p {
+    margin-top: 1rem;
+}
+
+/* footer */
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 2.5rem;
+    align-items: center;
+    text-align: center;
+    background: #24242C;
+    border-radius: 0 6.25rem 0 0;
+    margin-top: 6.25rem;
+}
+
+footer h5 {
+    font-family: 'Ubuntu', serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 2.0625rem;
+    color: var(--white);
+}
+
+footer ul li a {
+    font-family: 'Ubuntu', serif;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2.0625rem;
+    opacity: 0.75;
+}
+
+footer ul {
+    margin-top: 1.3125rem;
+}
+
+footer li {
+    list-style: none;
+}
+
 @media only screen and (max-width: 75rem) {
     .container {
         margin-inline: 3rem;
