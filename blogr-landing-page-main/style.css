@@ -119,7 +119,7 @@ nav ul li {
     color: var(--white);
 }
 
-.hero-content h1 {
+h1 {
     font-weight: 600;
     font-size: 2.25rem;
     line-height: 3.4375rem;
@@ -400,6 +400,18 @@ footer li {
 
     .mobile-nav-control {
         display: block;
+    }
+}
+
+@media only screen and (min-width: 56.25rem) {
+    h1 {
+        font-size: 4rem;
+        line-height: 6.125rem;
+        letter-spacing: -0.12rem;
+    }
+    .hero-content p {
+        font-size: 1.25rem;
+        line-height: 1.9375rem;
     }
 }
 
