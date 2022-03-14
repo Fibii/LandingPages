@@ -202,14 +202,15 @@ nav ul li {
 
 .infrastructure-phones {
     position: absolute;
-    top: -20%;
+    top: -29%;
     z-index: 1;
     width: 100%;
 }
 
 .infrastructure-phones img {
     display: block;
-    width: 20.5rem;
+    width: 100%;
+    max-width: 25rem;
     margin-inline: auto;
 }
 
@@ -223,7 +224,6 @@ nav ul li {
 
 .infrastructure-bg-circle img {
     width: 37.75rem;
-    opacity: 0.5;
 }
 
 .infrastructure-content {
