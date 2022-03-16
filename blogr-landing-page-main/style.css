@@ -7,6 +7,10 @@
     margin-inline: 10.3125rem;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 section {
     font-family: 'Overpass', serif;
 }
@@ -409,9 +413,61 @@ footer li {
         line-height: 6.125rem;
         letter-spacing: -0.12rem;
     }
+
     .hero-content p {
         font-size: 1.25rem;
         line-height: 1.9375rem;
+    }
+
+    /* design section */
+    .design-section {
+        margin-top: 9.375rem;
+    }
+
+    .design-images img:first-child {
+        display: none;
+    }
+
+    .design-images img:last-child {
+        display: block;
+        max-width: 27.5rem;
+        transform: scale(2.6) translateX(7vw);
+        width: 50%;
+        margin: 0;
+    }
+
+    .design-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    .design-section > div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 5.8125rem;
+    }
+
+    .design-section h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 3.8125rem;
+        letter-spacing: -0.075rem;
+    }
+
+    .design-content {
+        text-align: left;
+        flex: 1;
+    }
+
+    .design-content h4 {
+        line-height: 1.75rem;
+    }
+
+    .design-content > div {
+        max-width: 33.75rem;
     }
 }
 
