@@ -477,23 +477,59 @@ footer li {
     .infrastructure-container {
         position: static;
         height: 25rem;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
     }
 
     .infrastructure-content {
-        flex: 1;
+        grid-column: 2;
         text-align: left;
         margin-top: 0;
     }
 
     .infrastructure-phones {
-        flex-basis: 33.75rem;
+        grid-column: 1;
     }
 
     .infrastructure-phones img {
         width: 100%;
         transform: scale(1.2);
         box-sizing: border-box;
+    }
+
+    /* features section */
+    .features-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+        margin-top: 19rem;
+    }
+
+    .features-images {
+        grid-column: 1;
+        align-self: center;
+    }
+
+    .features-images img {
+        width: 100%;
+        transform: scale(1.6) translateX(-29%);
+    }
+
+    .features-content {
+        grid-column: 2;
+        text-align: left;
+        margin-top: 0;
+        gap: 4rem;
+        align-self: center;
+    }
+
+    .features-content h3 {
+        line-height: 1.75rem;
+    }
+
+    footer {
+        margin-top: 19.25rem;
     }
 }
 
