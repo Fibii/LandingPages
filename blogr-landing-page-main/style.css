@@ -528,8 +528,21 @@ footer li {
         line-height: 1.75rem;
     }
 
+    /* footer */
     footer {
+        height: 22.4375rem;
         margin-top: 19.25rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        align-items: flex-start;
+    }
+
+    footer > div {
+        margin-top: 4.375rem;
+    }
+
+    footer h5, footer ul li a {
+        font-size: 0.9375rem;
     }
 }
 
