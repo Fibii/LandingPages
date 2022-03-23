@@ -1,54 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="assetsavicon-32x32.png">
-  
-  <title>Frontend Mentor | Maker pre-launch landing page</title>
+    <link href="assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Maker pre-launch landing page</title>
 </head>
 <body>
-  Get paid for the work you love to do.
+<header class="header">
+    <div class="container">
+        <a class="header__logo" href=""><img alt="" src=""></a>
+    </div>
+</header>
 
-  The 9-5 grind is so last century. We believe in living life on your
-  own terms. Whether you’re looking to escape the rat race or set up
-  a side hustle, we’ve got you covered.
-
-  Indulge your passions
-  Your passions shouldn't be just for the weekend. Earn a living doing what you love.
-
-  Gain financial freedom
-  Start making money work for you. There’s nothing quite like earning while you sleep. 
-
-  Choose your lifestyle
-  Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.
-
-  Work from anywhere
-  Selling online means not being pinned down. Want to work AND travel? Go for it!
-
-  Our pricing plans
-  We only make money when our creators make money. Our plans are always affordable, and 
-  it’s completely free to get started.
-
-  Dip your toe
-  Just getting started? No problem at all! Our free plan will take you a long way.
-  Free
-  Unlimited products
-  Basic analytics
-  Limited marketplace exposure
-  10% fee per transaction
-
-  Dive right in
-  Ready for the big time? Our paid plan will help you take your business to the next level.
-  $25.00 /month
-  Custom domain
-  Advanced analytics and reports
-  High marketplace visibility
-  5% fee per transaction
-
-  Get notified when we launch
-  Email address
-  Get notified
+<section class="hero">
+    <img src="assets/illustration-hero-left.svg" alt="" class="hero__bg--left">
+    <img src="assets/bg-hero-squiggle.svg" alt="" class="hero__bg--center">
+    <img src="assets/illustration-hero-right.svg" alt="" class="hero__bg--right">
+    <div class="container">
+        <h1 class="hero__header">
+            Get paid for the work you love to do.
+        </h1>
+        <p class="hero__text">
+            The 9-5 grind is so last century. We believe in living life on your
+            own terms. Whether you’re looking to escape the rat race or set up
+            a side hustle, we’ve got you covered.
+        </p>
+        <img src="assets/" alt="" class="hero__scroll">
+    </div>
+</section>
+<section class="features">
+    <div class="container">
+        <div class="feature__item">
+            <img src="assets/illustration-passions.svg" alt="passion" class="feature__img">
+            <h5 class="feature__title">
+                Indulge your passions
+            </h5>
+            <p class="feature__text">
+                Your passions shouldn't be just for the weekend. Earn a living doing what you love.
+            </p>
+        </div>
+        <div class="feature__item">
+            <img src="assets/illustration-financial-freedom.svg" alt="financial freedom" class="feature__img">
+            <h5 class="feature__title">
+                Gain financial freedom
+            </h5>
+            <p class="feature__text">
+                Start making money work for you. There’s nothing quite like earning while you sleep.
+            </p>
+        </div>
+        <div class="feature__item">
+            <img src="assets/illustration-lifestyle.svg" alt="lifestyle" class="feature__img">
+            <h5 class="feature__title">
+                Choose your lifestyle
+            </h5>
+            <p class="feature__text">
+                Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.
+            </p>
+        </div>
+        <div class="feature__item">
+            <img src="assets/illustration-work-anywhere.svg" alt="work anywhere" class="feature__img">
+            <h5 class="feature__title">
+                Work from anywhere
+            </h5>
+            <p class="feature__text">
+                Selling online means not being pinned down. Want to work AND travel? Go for it!
+            </p>
+        </div>
+    </div>
+</section>
+<section class="pricing">
+    <div class="container">
+        <h2 class="pricing__header">
+            Our pricing plans
+        </h2>
+        <p class="pricing__text">
+            We only make money when our creators make money. Our plans are always affordable, and
+            it’s completely free to get started.
+        </p>
+        <div class="pricing__cards">
+            <div class="pricing__card--left">
+                <img src="assets/icon-free.svg" alt="">
+                <h5 class="pricing__card__header">
+                    Dip your toe
+                </h5>
+                <p class="pricing__card__text">
+                    Just getting started? No problem at all! Our free plan will take you a long way.
+                </p>
+                <p class="pricing__card__price">
+                    Free
+                </p>
+                <ul class="pricing__list">
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            Unlimited products
+                        </p>
+                    </li>
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            Basic analytics
+                        </p>
+                    </li>
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            Limited marketplace exposure
+                        </p>
+                    </li>
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            10% fee per transaction
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="pricing__card--right">
+                <img src="assets/icon-paid.svg" alt="">
+                <h5 class="pricing__card__header">
+                    Dive right in
+                </h5>
+                <p class="pricing__card__text">
+                    Ready for the big time? Our paid plan will help you take your business to the next level.
+                </p>
+                <p class="pricing__card__price">
+                    $25.00 /month
+                </p>
+                <ul class="pricing__list">
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            Custom domain
+                        </p>
+                    </li>
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            Advanced analytics and reports
+                        </p>
+                    </li>
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            High marketplace visibility
+                        </p>
+                    </li>
+                    <li class="pricing__feature">
+                        <img src="assets/icon-check.svg" alt="">
+                        <p class="pricing__feature__text">
+                            5% fee per transaction
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+	<div class="container">
+		<h2 class="footer__header">
+            Get notified when we launch
+        </h2>
+		<div class="footer__notification">
+			<form action="" class="footer__form">
+                <label class="footer_form__input">
+                    <input type="text" placeholder="Email address">
+                </label>
+                <input class="footer__form_submit" type="submit" value="Get notified">
+            </form>
+		</div>
+	</div>
+</footer>
 </body>
 </html>
