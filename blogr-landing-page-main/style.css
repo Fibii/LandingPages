@@ -432,6 +432,37 @@ footer {
         letter-spacing: -0.12rem;
     }
 
+    .nav-item {
+        position: relative;
+    }
+
+    .nav-item > a {
+        padding-bottom: 2.5rem;
+    }
+
+    .nav-item:hover .drop-down-menu {
+        position: absolute;
+        display: block;
+        background: var(--white);
+        padding: 1.5rem;
+        width: 10.5rem;
+        margin-top: 1.6875rem;
+        box-sizing: border-box;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 2.0625rem;
+        border-radius: 0.3125rem;
+    }
+
+    .drop-down-menu a:hover {
+        font-weight: 600;
+    }
+
+    .drop-down-menu a {
+        color: var(--very-dark-black-blueL);
+    }
+
+
     /* hero section */
     .hero {
         align-items: center;
