@@ -74,6 +74,10 @@ nav ul li {
     gap: 2rem;
 }
 
+.register li + li:hover{
+   opacity: 0.9;
+}
+
 .sign-up-link a {
     display: block;
     box-sizing: border-box;
@@ -169,6 +173,15 @@ h1 {
 
 .hero-links a {
     border: 0.0625rem solid var(--white);
+}
+
+.hero-links a:first-child:hover {
+    opacity: 0.9;
+}
+
+
+.hero-links a:last-child:hover {
+   background: rgba(255, 255, 255, 0.1);
 }
 
 /* designed for the future section*/
