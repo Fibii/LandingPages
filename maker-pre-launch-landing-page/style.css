@@ -58,14 +58,18 @@ p {
 }
 
 .hero__bg--mobile {
-    max-width: 100%;
-    transform: scale(1.2) translatex(1.5rem);
+    max-width: 31.25rem;
+    width: 115%;
 }
 
 .hero {
     text-align: center;
-    margin-top: 1.625rem;
     overflow: hidden;
+}
+
+.hero__container {
+    width: 90%;
+    margin-inline: auto;
 }
 
 .hero__header {
@@ -258,6 +262,56 @@ p {
 .footer__form__submit:hover {
     opacity: 0.9;
 }
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .header {
+        text-align: left;
+        padding: 3rem 0 4.8125rem 0;
+    }
+
+    .hero__container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero__bg--mobile {
+        display: none;
+    }
+
+    .hero__bg--left, .hero__bg--center, .hero__bg--right{
+        display: block;
+    }
+
+    .hero__bg--left {
+        direction: rtl;
+    }
+
+    .hero__bg--left img {
+        max-width: 320px;
+    }
+
+
+    .hero__container {
+        background-size: 100% 80%;
+        background: url("assets/bg-hero-squiggle.svg") no-repeat center center;
+    }
+
+
+    .hero__bg--right img {
+        max-width: 320px;
+    }
+
+    .hero__bg__container {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        align-items: center;
+    }
+}
+
 
 :root {
     --white: #FFFFFF;
