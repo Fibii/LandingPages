@@ -336,7 +336,17 @@ p {
     }
 
     .feature__title {
-        margin: 0;
+        margin-top: 0;
+    }
+
+    .pricing {
+        margin-top: 8.8125rem;
+    }
+
+    .pricing__cards {
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 4.9375rem;
     }
 }
 
