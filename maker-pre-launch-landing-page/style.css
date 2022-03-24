@@ -1,0 +1,74 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    background-color: var(--bg-color);
+    color: var(--white);
+}
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+}
+
+.header {
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    opacity: 0.6;
+}
+
+.hero__bg--left, .hero__bg--center, .hero__bg--right {
+    display: none;
+}
+
+.hero__bg--mobile {
+    max-width: 120%;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 1.625rem;
+}
+
+.hero__header {
+    margin-top: 3rem;
+}
+
+.hero__text {
+    margin-top: 1.5rem;
+}
+
+.hero__scroll {
+    margin-top: 2rem;
+}
+
+:root {
+    --white: #FFFFFF;
+    --bg-color: #080C20;
+    --gray: #777F98;
+    --navy-blue: #093F68;
+    --aqua: #3EE9E5;
+    --error-color: #FF2965;
+}
