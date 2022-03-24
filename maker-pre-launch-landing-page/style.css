@@ -310,6 +310,34 @@ p {
         grid-template-columns: 20% 60% 20%;
         align-items: center;
     }
+
+    .features-section {
+        margin-top: 6.8125rem;
+    }
+
+    .features {
+        text-align: left;
+    }
+
+    .features__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature__item {
+        display: flex;
+        align-items: center;
+        gap: 3.4375rem;
+        width: 80%;
+    }
+
+    .feature__item:nth-child(2n - 1) {
+        align-self: center;
+    }
+
+    .feature__title {
+        margin: 0;
+    }
 }
 
 
