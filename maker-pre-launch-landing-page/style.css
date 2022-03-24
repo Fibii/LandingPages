@@ -266,7 +266,8 @@ p {
 }
 
 .footer__form__submit:hover {
-    opacity: 0.9;
+    background: var(--bg-color);
+    border: 0.125rem solid var(--aqua);
 }
 
 @media only screen and (min-width: 768px) {
@@ -450,6 +451,20 @@ p {
         gap: 1.875rem;
         align-items: center;
         margin-top: 4.5rem;
+    }
+
+    .footer {
+        margin-top: 12.6875rem;
+    }
+
+    .footer__notification {
+        margin-top: 3.375rem;
+    }
+
+    .footer__form {
+        max-width: 29.75rem;
+        flex-direction: row;
+        margin-bottom: 8.125rem;
     }
 }
 
