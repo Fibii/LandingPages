@@ -64,6 +64,49 @@ p {
     margin-top: 2rem;
 }
 
+
+.feature__item + .feature__item {
+    margin-top: 3.5rem
+}
+
+.features {
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.feature__img {
+    background: var(--navy-blue);
+    border-radius: 2.8125rem;
+    width: 7.5rem;
+}
+
+.feature__img--passion {
+    padding: 1.375rem 1.5rem 1.375rem 1.875rem;
+}
+
+.feature__img--financial {
+    padding: 1.75rem 2rem;
+}
+
+.feature__img--lifestyle {
+    padding: 1.6875rem 1.875rem 1.625rem 1.875rem;
+}
+
+.feature__img--work {
+    padding: 2.125rem 1.3125rem 2.0625rem 1.3125rem;
+}
+
+.feature__title {
+    margin-top: 2rem;
+    margin-bottom: 0.6875rem;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+}
+
+.feature__text {
+    margin: 0;
+}
+
 :root {
     --white: #FFFFFF;
     --bg-color: #080C20;
