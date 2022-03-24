@@ -76,6 +76,10 @@ p {
     margin-top: 3rem;
 }
 
+.hero__header--aqua {
+    color: var(--aqua);
+}
+
 .hero__text {
     margin-top: 1.5rem;
 }
@@ -371,6 +375,36 @@ p {
 
     .footer__form__submit {
         width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1110px){
+    .container {
+        max-width: 1110px;
+        width: 90%;
+        background: red;
+    }
+
+    .header {
+        padding: 5.0625rem 0 7.125rem 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+
+    .hero__bg__container {
+        grid-template-columns: 30% 40% 30%;
+    }
+
+    .hero__scroll {
+        margin-top: 4rem;
     }
 }
 
