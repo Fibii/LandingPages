@@ -348,6 +348,30 @@ p {
         margin-inline: auto;
         margin-top: 4.9375rem;
     }
+
+    .footer {
+        margin-top: 7.4375rem;
+    }
+
+    .footer__notification {
+        margin-top: 1.8125rem;
+    }
+
+    .footer__form {
+        flex-direction: row;
+        gap: 1rem;
+        width: 80%;
+        margin-inline: auto;
+        margin-bottom: 6.5625rem;
+    }
+
+    .footer__form__label {
+        width: 70%;
+    }
+
+    .footer__form__submit {
+        width: 30%;
+    }
 }
 
 
