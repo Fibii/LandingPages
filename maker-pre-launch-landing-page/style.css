@@ -382,7 +382,6 @@ p {
     .container {
         max-width: 1110px;
         width: 90%;
-        background: red;
     }
 
     .header {
@@ -405,6 +404,39 @@ p {
 
     .hero__scroll {
         margin-top: 4rem;
+    }
+
+    .features {
+        margin-top: 12.625rem;
+    }
+
+    .features__container {
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 1.875rem;
+    }
+
+    .feature__item {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 3rem;
+    }
+
+    .feature__item + .feature__item {
+        margin: 0;
+    }
+
+    .feature__item:nth-child(2n - 1) {
+        align-self: flex-start;
+    }
+
+    .feature__item:nth-child(2) {
+        margin-top: 3em;
+    }
+
+    .feature__title {
+        margin-bottom: 1.4375rem;
     }
 }
 
