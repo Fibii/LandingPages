@@ -137,6 +137,8 @@ p {
 
 .pricing__info {
     text-align: center;
+    max-width: 33.75rem;
+    margin-inline: auto;
 }
 
 .pricing__text {
@@ -437,6 +439,17 @@ p {
 
     .feature__title {
         margin-bottom: 1.4375rem;
+    }
+
+    .pricing {
+        margin-top: 12.625rem;
+    }
+
+    .pricing__cards {
+        flex-direction: row;
+        gap: 1.875rem;
+        align-items: center;
+        margin-top: 4.5rem;
     }
 }
 
