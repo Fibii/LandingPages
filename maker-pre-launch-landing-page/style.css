@@ -234,9 +234,16 @@ p {
 .footer__form {
     display: flex;
     flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 10.25rem;
+    text-align: left;
+}
+
+.footer__form__container {
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
     margin-top: 1.9375rem;
-    margin-bottom: 10.25rem;
 }
 
 .input {
@@ -268,6 +275,14 @@ p {
 .footer__form__submit:hover {
     background: var(--bg-color);
     border: 0.125rem solid var(--aqua);
+}
+
+.form__error {
+    font-size: 0.75rem;
+    opacity: 1;
+    color: var(--error-color);
+    margin-left: 1.125rem;
+    display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -365,11 +380,16 @@ p {
     }
 
     .footer__form {
-        flex-direction: row;
-        gap: 1rem;
         width: 80%;
         margin-inline: auto;
         margin-bottom: 6.5625rem;
+    }
+
+    .footer__form__container {
+        flex-direction: row;
+        gap: 1rem;
+        width: 100%;
+        margin-inline: auto;
     }
 
     .footer__form__label {
@@ -462,9 +482,12 @@ p {
     }
 
     .footer__form {
-        max-width: 29.75rem;
-        flex-direction: row;
         margin-bottom: 8.125rem;
+        max-width: 29.75rem;
+    }
+
+    .footer__form__container {
+        flex-direction: row;
     }
 }
 
