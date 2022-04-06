@@ -267,6 +267,11 @@ p {
     opacity: 0.4;
 }
 
+.footer__form__input--error:focus {
+    border: 0.125rem solid red;
+    outline: none;
+}
+
 .footer__form__submit {
     background: var(--aqua);
     color: var(--navy-blue);
